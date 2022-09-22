@@ -28,7 +28,7 @@ services:
     image: mysql:latest
     container_name: mysql
     restart: always
-    hostname: localhost
+  # hostname: localhost
     network_mode: "host"
     ports:
       - 3306:3306
